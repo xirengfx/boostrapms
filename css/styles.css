@@ -1,0 +1,82 @@
+body {
+  background-color: #eeeeee !important;
+  font-family: 'Open Sans', serif;
+}
+
+p {
+  color: #eeeeee;
+}
+
+h3 {
+  font-family: 'Roboto Slab';
+}
+
+hr {
+  width: 20%;
+  background-color: #d6e0f0;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #3282b8;
+}
+
+.nav-item {
+  font-size: 0.95rem;
+  padding-left: 2.3rem;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Slab';
+  font-size: 1.3rem;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin: 3% 0;
+}
+
+.server-name {
+  font-size: 5rem;
+  font-family: 'Roboto Slab';
+  color: #373a40;
+}
+
+.leaf-img {
+  width: 7%;
+}
+
+/* Server Info */
+.feature-box {
+  text-align: center;
+  padding: 3%;
+  line-height: 1.5;
+  color: white;
+}
+
+.icon {
+  color: #eeeeee;
+  padding-bottom: 5%;
+}
+
+.icon:hover{
+  color: #686d76;
+}
+
+/* Carousel */
+#carousel {
+  text-align: center;
+}
+
+.carousel {
+  padding: 5% 10% 5% 10%;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2%;
+}
