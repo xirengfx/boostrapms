@@ -45,8 +45,15 @@ hr {
   color: #373a40;
 }
 
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 600px) {
+  .server-name {
+    font-size: 50px;
+  }
+}
+
 .leaf-img {
-  width: 7%;
+  width: 100px;
 }
 
 /* Server Info */
