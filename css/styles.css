@@ -1,89 +1,99 @@
 body {
-  background-color: #eeeeee !important;
-  font-family: 'Open Sans', serif;
-}
-
-p {
-  color: #eeeeee;
-}
-
-h3 {
-  font-family: 'Roboto Slab';
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 hr {
-  width: 20%;
-  background-color: #d6e0f0;
+  width: 15%;
+}
+
+.row {
+  margin: 0;
 }
 
 /* Navbar */
-
 .navbar {
-  background-color: #3282b8;
+  background-color: #2f2519;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 600;
 }
 
 .nav-item {
-  font-size: 0.95rem;
-  padding-left: 2.3rem;
-  font-weight: 500;
+  padding-right: 20px;
 }
 
-.navbar-brand {
-  font-family: 'Roboto Slab';
-  font-size: 1.3rem;
+.nav-link {
+  color: white !important;
 }
 
-/* Header */
-.header {
+.nav-link:hover {
+  color: #ec823a !important;
+}
+
+/* TOP container */
+#welcome {
   text-align: center;
-  margin: 3% 0;
 }
 
-.server-name {
-  font-size: 5rem;
+.top-container {
+  color: white;
+  padding: 5% 0;
+  background-image: url(../images/welcome-image.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.welcome-h1 {
   font-family: 'Roboto Slab';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-shadow: 0px 1px 2px black;
+}
+
+.welcome-p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-shadow: 0px 1px 2px black;
+}
+
+.cta-button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 3% 10px;
+  text-shadow: 0px 0px 2px black;
+  padding: 1rem 2rem;
+}
+
+/* UPDATES container */
+.updates-container {
+  background-color: white;
+  padding-bottom: 10%;
+}
+
+.updates-h4 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 500;
   color: #373a40;
 }
 
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (max-width: 600px) {
-  .server-name {
-    font-size: 50px;
-  }
+.card {
+  text-align: left;
+  padding-top: 3rem;
+  margin-top: 1.5rem;
 }
 
-.leaf-img {
+.card-img-top {
+  margin: auto;
   width: 100px;
 }
 
-/* Server Info */
-.feature-box {
-  text-align: center;
-  padding: 3%;
-  line-height: 1.5;
-  color: white;
-}
-
-.icon {
-  color: #eeeeee;
-  padding-bottom: 5%;
-}
-
-.icon:hover{
-  color: #686d76;
-}
-
-/* Carousel */
-#carousel {
-  text-align: center;
-}
-
-.carousel {
-  padding: 5% 10% 5% 10%;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 2%;
+.card-heading {
+  font-weight: 600;
 }
