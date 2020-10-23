@@ -11,6 +11,14 @@ hr {
   width: 15%;
 }
 
+h1 {
+  font-family: 'Roboto Slab';
+}
+
+a {
+  text-decoration: none !important;
+}
+
 .row {
   margin: 0;
 }
@@ -47,7 +55,6 @@ hr {
 }
 
 .welcome-h1 {
-  font-family: 'Roboto Slab';
   font-size: 3rem;
   line-height: 1.5;
   font-weight: bold;
@@ -116,11 +123,13 @@ hr {
   background-image: url(../images/features-image.png);
   background-repeat: no-repeat;
   background-color: white;
-  padding-bottom: 30%;
+  padding-bottom: 7rem;
+  text-align: left;
 }
 
 .features-h1 {
   font-family: 'Roboto Slab';
+  text-align: center;
   color: white;
   text-shadow: 0 1px 10px grey;
   padding-top: 1rem;
@@ -129,10 +138,122 @@ hr {
 
 .features-p {
   color: #373a40;
+  text-align: center;
   font-size: 1.2rem;
   font-weight: lighter;
 }
 
-.features-box {
-  text-align: left;
+.features-h5 {
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.feature {
+  width: 25rem;
+  padding: 0 5rem;
+  position: relative;
+  left: 4rem;
+  top: 70px;
+}
+
+.feature-explanation {
+  color: #968c83;
+  font-size: 0.9rem;
+}
+
+.feature-img {
+  position: relative;
+  right: 80px;
+  top: 70px;
+}
+
+/* Monthly Stats */
+#weekly-stats {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.weekly-stats-h1 {
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-shadow: 0 1px 2px black;
+  padding: 2rem 0 1rem;
+}
+
+.stats-box {
+  padding: 8rem;
+  position: relative;
+  left: 2.5rem;
+}
+
+@media (max-width: 1400px) {
+  .stats-box {
+    position: static;
+  }
+}
+.stats-icon {
+  color: white;
+  text-shadow: 0 1px 5px black;
+}
+
+.stats-icon:hover {
+  color: #d9ecf2;
+}
+
+.stats-h2 {
+  font-family: 'Roboto';
+  color: white;
+  text-shadow: 0 1px 2px black;
+  font-size: 4rem;
+  position: relative;
+  top: 1rem;
+}
+
+.stats-h4 {
+  font-family: 'Roboto';
+  color: white;
+  text-shadow: 0 1px 2px black;
+  font-size: 2rem;
+  position: relative;
+  top: 2rem;
+}
+
+/* Call To Action */
+.cta-container {
+  background-color: #ff9642;
+  background-image: url(../images/cta-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.cta-container:hover {
+  background-color: #f6830f;
+}
+
+.cta-h2 {
+  font-family: 'Roboto';
+  font-weight: lighter;
+  color: white;
+  text-shadow: 0 1px 2px grey;
+  display: inline;
+}
+
+.cta-h1 {
+  font-family: 'Roboto';
+  color: white;
+  text-shadow: 0 1px 2px grey;
+  font-weight: 800;
+  display: inline;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 1rem;
+  background-color: #2f2519;
+  color: #968c83;
 }
