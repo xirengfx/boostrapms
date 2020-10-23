@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
+  overflow-x: hidden;
 }
 
 hr {
@@ -229,6 +230,7 @@ a {
   background-size: cover;
   padding: 1.5rem;
   transition: 0.5s;
+  margin: 0;
 }
 
 .cta-container:hover {
