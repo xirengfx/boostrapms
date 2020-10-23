@@ -228,10 +228,12 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1.5rem;
+  transition: 0.5s;
 }
 
 .cta-container:hover {
   background-color: #f6830f;
+  transition: 0.5s;
 }
 
 .cta-h2 {
